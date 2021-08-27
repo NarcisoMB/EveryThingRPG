@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283D7D8426CF42A0009DEF66 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283D7D8326CF42A0009DEF66 /* Inventory.swift */; };
+		283D7D8626CF43FB009DEF66 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283D7D8526CF43FB009DEF66 /* Object.swift */; };
+		283D7D8826CF457C009DEF66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283D7D8726CF457C009DEF66 /* User.swift */; };
+		28455DB226CEDEE50075EC07 /* EveryThingRPGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28455DB126CEDEE50075EC07 /* EveryThingRPGApp.swift */; };
+		28455DB426CEDEE50075EC07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28455DB326CEDEE50075EC07 /* ContentView.swift */; };
+		28455DB626CEDEE70075EC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28455DB526CEDEE70075EC07 /* Assets.xcassets */; };
+		28455DB926CEDEE70075EC07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28455DB826CEDEE70075EC07 /* Preview Assets.xcassets */; };
+		28455DC126CEDF1D0075EC07 /* MiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28455DC026CEDF1D0075EC07 /* MiningView.swift */; };
+		28455DC326CEEE2B0075EC07 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28455DC226CEEE2B0075EC07 /* Helper.swift */; };
+		28455DC626CEF6610075EC07 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = 28455DC526CEF6610075EC07 /* ToastUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283D7D8326CF42A0009DEF66 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		283D7D8526CF43FB009DEF66 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		283D7D8726CF457C009DEF66 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28455DAE26CEDEE50075EC07 /* EveryThingRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EveryThingRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28455DB126CEDEE50075EC07 /* EveryThingRPGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveryThingRPGApp.swift; sourceTree = "<group>"; };
+		28455DB326CEDEE50075EC07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28455DB526CEDEE70075EC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28455DB826CEDEE70075EC07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28455DBA26CEDEE70075EC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28455DC026CEDF1D0075EC07 /* MiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningView.swift; sourceTree = "<group>"; };
+		28455DC226CEEE2B0075EC07 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28455DAB26CEDEE50075EC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28455DC626CEF6610075EC07 /* ToastUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283D7D8226CF4285009DEF66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				283D7D8326CF42A0009DEF66 /* Inventory.swift */,
+				283D7D8526CF43FB009DEF66 /* Object.swift */,
+				283D7D8726CF457C009DEF66 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28455DA526CEDEE50075EC07 = {
+			isa = PBXGroup;
+			children = (
+				28455DB026CEDEE50075EC07 /* EveryThingRPG */,
+				28455DAF26CEDEE50075EC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28455DAF26CEDEE50075EC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28455DAE26CEDEE50075EC07 /* EveryThingRPG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28455DB026CEDEE50075EC07 /* EveryThingRPG */ = {
+			isa = PBXGroup;
+			children = (
+				28455DB126CEDEE50075EC07 /* EveryThingRPGApp.swift */,
+				28455DB326CEDEE50075EC07 /* ContentView.swift */,
+				28455DC226CEEE2B0075EC07 /* Helper.swift */,
+				28455DC026CEDF1D0075EC07 /* MiningView.swift */,
+				283D7D8226CF4285009DEF66 /* Models */,
+				28455DB526CEDEE70075EC07 /* Assets.xcassets */,
+				28455DBA26CEDEE70075EC07 /* Info.plist */,
+				28455DB726CEDEE70075EC07 /* Preview Content */,
+			);
+			path = EveryThingRPG;
+			sourceTree = "<group>";
+		};
+		28455DB726CEDEE70075EC07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28455DB826CEDEE70075EC07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28455DAD26CEDEE50075EC07 /* EveryThingRPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28455DBD26CEDEE70075EC07 /* Build configuration list for PBXNativeTarget "EveryThingRPG" */;
+			buildPhases = (
+				28455DAA26CEDEE50075EC07 /* Sources */,
+				28455DAB26CEDEE50075EC07 /* Frameworks */,
+				28455DAC26CEDEE50075EC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EveryThingRPG;
+			packageProductDependencies = (
+				28455DC526CEF6610075EC07 /* ToastUI */,
+			);
+			productName = EveryThingRPG;
+			productReference = 28455DAE26CEDEE50075EC07 /* EveryThingRPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28455DA626CEDEE50075EC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					28455DAD26CEDEE50075EC07 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 28455DA926CEDEE50075EC07 /* Build configuration list for PBXProject "EveryThingRPG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28455DA526CEDEE50075EC07;
+			packageReferences = (
+				28455DC426CEF6610075EC07 /* XCRemoteSwiftPackageReference "ToastUI" */,
+			);
+			productRefGroup = 28455DAF26CEDEE50075EC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28455DAD26CEDEE50075EC07 /* EveryThingRPG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28455DAC26CEDEE50075EC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28455DB926CEDEE70075EC07 /* Preview Assets.xcassets in Resources */,
+				28455DB626CEDEE70075EC07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28455DAA26CEDEE50075EC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28455DB426CEDEE50075EC07 /* ContentView.swift in Sources */,
+				28455DB226CEDEE50075EC07 /* EveryThingRPGApp.swift in Sources */,
+				283D7D8426CF42A0009DEF66 /* Inventory.swift in Sources */,
+				28455DC126CEDF1D0075EC07 /* MiningView.swift in Sources */,
+				283D7D8626CF43FB009DEF66 /* Object.swift in Sources */,
+				28455DC326CEEE2B0075EC07 /* Helper.swift in Sources */,
+				283D7D8826CF457C009DEF66 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28455DBB26CEDEE70075EC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28455DBC26CEDEE70075EC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28455DBE26CEDEE70075EC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EveryThingRPG/Preview Content\"";
+				DEVELOPMENT_TEAM = 7W75CMJVF3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EveryThingRPG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baltazar.EveryThingRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28455DBF26CEDEE70075EC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EveryThingRPG/Preview Content\"";
+				DEVELOPMENT_TEAM = 7W75CMJVF3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EveryThingRPG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baltazar.EveryThingRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28455DA926CEDEE50075EC07 /* Build configuration list for PBXProject "EveryThingRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28455DBB26CEDEE70075EC07 /* Debug */,
+				28455DBC26CEDEE70075EC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28455DBD26CEDEE70075EC07 /* Build configuration list for PBXNativeTarget "EveryThingRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28455DBE26CEDEE70075EC07 /* Debug */,
+				28455DBF26CEDEE70075EC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28455DC426CEF6610075EC07 /* XCRemoteSwiftPackageReference "ToastUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quanshousio/ToastUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28455DC526CEF6610075EC07 /* ToastUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28455DC426CEF6610075EC07 /* XCRemoteSwiftPackageReference "ToastUI" */;
+			productName = ToastUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 28455DA626CEDEE50075EC07 /* Project object */;
+}
