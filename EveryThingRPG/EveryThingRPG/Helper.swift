@@ -3,7 +3,30 @@
 //  Created by Narciso Meza on 19/08/21.
 import SwiftUI
 
+struct Constants {
+    static let screenSize = UIScreen.main.bounds
+    
+}
+
+class SwiftUIViewCModel: ObservableObject {
+    
+    @Published var state : SwiftUIViewCModelState = .mainView
+    
+    static let shared = SwiftUIViewCModel()
+    
+    private init() {}
+}
+
+enum SwiftUIViewCModelState {
+    case mainView
+    case miningView
+    case farmingView
+    case farmingViews
+    case explorationView
+}
+
 struct ProgressBar: View {
+    
     private let value: Double
     private let maxValue: Double
     private let backgroundEnabled: Bool
@@ -26,29 +49,22 @@ struct ProgressBar: View {
     }
     
     var body: some View {
-        // 1
         ZStack {
-            // 2
             GeometryReader { geometryReader in
-                // 3
                 if self.backgroundEnabled {
                     Capsule()
-                        .foregroundColor(self.backgroundColor) // 4
+                        .foregroundColor(self.backgroundColor)
                 }
                 
                 Capsule()
-                    .frame(width: self.progress(value: self.value,
-                                                maxValue: self.maxValue,
-                                                width: geometryReader.size.width)) // 5
-                    .foregroundColor(self.foregroundColor) // 6
-                    .animation(.easeIn) // 7
+                    .frame(width: self.progress(value: self.value, maxValue: self.maxValue, width: geometryReader.size.width))
+                    .foregroundColor(self.foregroundColor)
+                    .animation(.easeIn)
             }
         }
     }
     
-    private func progress(value: Double,
-                          maxValue: Double,
-                          width: CGFloat) -> CGFloat {
+    private func progress(value: Double, maxValue: Double, width: CGFloat) -> CGFloat {
         let percentage = value / maxValue
         return width *  CGFloat(percentage)
     }

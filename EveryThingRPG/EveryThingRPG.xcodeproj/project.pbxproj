@@ -17,6 +17,7 @@
 		28455DC126CEDF1D0075EC07 /* MiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28455DC026CEDF1D0075EC07 /* MiningView.swift */; };
 		28455DC326CEEE2B0075EC07 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28455DC226CEEE2B0075EC07 /* Helper.swift */; };
 		28455DC626CEF6610075EC07 /* ToastUI in Frameworks */ = {isa = PBXBuildFile; productRef = 28455DC526CEF6610075EC07 /* ToastUI */; };
+		285E583E26DD739100659E2B /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E583D26DD739100659E2B /* BottomBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		28455DBA26CEDEE70075EC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28455DC026CEDF1D0075EC07 /* MiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningView.swift; sourceTree = "<group>"; };
 		28455DC226CEEE2B0075EC07 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		285E583D26DD739100659E2B /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				28455DB526CEDEE70075EC07 /* Assets.xcassets */,
 				28455DBA26CEDEE70075EC07 /* Info.plist */,
 				28455DB726CEDEE70075EC07 /* Preview Content */,
+				285E583D26DD739100659E2B /* BottomBar.swift */,
 			);
 			path = EveryThingRPG;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				28455DB226CEDEE50075EC07 /* EveryThingRPGApp.swift in Sources */,
 				283D7D8426CF42A0009DEF66 /* Inventory.swift in Sources */,
 				28455DC126CEDF1D0075EC07 /* MiningView.swift in Sources */,
+				285E583E26DD739100659E2B /* BottomBar.swift in Sources */,
 				283D7D8626CF43FB009DEF66 /* Object.swift in Sources */,
 				28455DC326CEEE2B0075EC07 /* Helper.swift in Sources */,
 				283D7D8826CF457C009DEF66 /* User.swift in Sources */,
